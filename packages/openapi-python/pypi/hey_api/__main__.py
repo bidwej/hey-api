@@ -2,10 +2,10 @@
 
 import os
 import platform
-from pathlib import Path
 import signal
 import subprocess
 import sys
+from pathlib import Path
 
 
 def _get_binary_path() -> str:

@@ -1,6 +1,8 @@
-from pydantic import BaseModel, AwareDatetime
 from typing import Literal
 from uuid import UUID
+
+from pydantic import AwareDatetime, BaseModel
+
 
 class Order(BaseModel):
     id: UUID

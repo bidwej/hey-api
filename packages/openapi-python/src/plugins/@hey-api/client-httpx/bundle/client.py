@@ -1,6 +1,6 @@
 from typing import Any, Optional
-import httpx
 
+import httpx
 
 EXTRA_PREFIXES_MAP = {
     "$body_": "json",
